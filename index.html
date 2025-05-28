@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <img class="header-logo" src="./images/el_burgues_logo.PNG" alt="" />
+        <div class="header-title-container">
+          <h1 class="header-title">El Burgués</h1>
+          <h2 class="header-subtitle">MENU</h2>
+        </div>
+        <nav class="navbar">
+          <input type="checkbox" name="" id="navbar__toggle-checkbox" />
+          <label
+            class="navbar__toggle-label"
+            for="navbar__toggle-checkbox"
+          ></label>
+          <div class="navbar-container">
+            <!-- <h3 class="navbar-title">Menú</h3> -->
+            <ul class="navbar_list">
+              <li class="navbar_item"><a href="#">VIP</a></li>
+              <li class="navbar_item"><a href="#">Plan B</a></li>
+              <li class="navbar_item"><a href="#">Snacks</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section id="burguer-list" class="product-list"></section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
