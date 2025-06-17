@@ -4,6 +4,6 @@ import './styles/nav-bar.css'
 import { products } from './products.js'
 import { createProductList } from './product-list.js'
 
-const dailyRate = 97.5
+const dailyRate = 102.4
 
 createProductList(products, dailyRate)
