@@ -14,7 +14,7 @@ export const products = [
       'Salsas',
     ],
     description: 'A classic American burger with lettuce, tomato, and cheese.',
-    price: 5,
+    price: 10,
     image: './images/products/american_classic.webp',
   },
   {
@@ -30,7 +30,7 @@ export const products = [
       'Salsas',
     ],
     description: 'A classic American burger with lettuce, tomato, and cheese.',
-    price: 8.99,
+    price: 13,
     image: './images/products/coronel_crispy.webp',
   },
 
@@ -48,7 +48,7 @@ export const products = [
     ],
     description:
       'Hamburguesa con crujiente queso frito y un toque picante ideal para amantes del queso.',
-    price: 7.5,
+    price: 11,
     image: './images/products/frito_cheese.webp',
   },
   {
@@ -64,7 +64,7 @@ export const products = [
     ],
     description:
       'Unión divina de carne jugosa con queso azul y cebolla caramelizada, para paladares exigentes.',
-    price: 9.99,
+    price: 13,
     image: './images/products/afrodita.webp',
   },
   {
@@ -82,7 +82,7 @@ export const products = [
     ],
     description:
       'Auténtico sabor callejero con doble carne, queso derretido y cebolla crujiente.',
-    price: 6.99,
+    price: 10,
     image: './images/products/street_burguer.webp',
   },
   {
@@ -99,7 +99,7 @@ export const products = [
     ],
     description:
       'Fusión asiática con pollo crujiente bañado en teriyaki y piña caramelizada.',
-    price: 10.5,
+    price: 10,
     image: './images/products/crispy_teriyaki.webp',
   },
   {
@@ -114,7 +114,7 @@ export const products = [
       'Salsas de la casa en tapas de tequeño',
     ],
     description: 'Explosión de sabores mexicanos con toque de tequila premium',
-    price: 8.5,
+    price: 11,
     image: './images/products/tequeburguer.jpg',
   },
   {
@@ -129,7 +129,7 @@ export const products = [
       'Tapa superior de pizza (Vegetales, Pestocineta, Margarita, 4 quesos)',
     ],
     description: 'Fusión italiana con los mejores ingredientes de pizza',
-    price: 9.75,
+    price: 12.5,
     image: './images/products/pizza_burguer.jpg',
   },
   {
@@ -145,12 +145,12 @@ export const products = [
       'Salsas',
     ],
     description: 'Auténtico sabor campestre con ingredientes tradicionales',
-    price: 7.99,
+    price: 9,
     image: './images/products/pueblerina.jpg',
   },
   {
     id: 11,
-    name: 'BBQ',
+    name: 'Burgués BBQ',
     label: 'No te pierdas la',
     ingredients: [
       '150gr de res',
@@ -163,7 +163,7 @@ export const products = [
       'Salsa de la casa',
     ],
     description: 'Clásico sabor barbecue con ahumado natural',
-    price: 8.25,
+    price: 12,
     image: './images/products/chicken_bbq1.jpg',
   },
   {
@@ -176,7 +176,7 @@ export const products = [
       'Vegetales en Cesar',
     ],
     description: 'Armonía de sabores gourmet con queso azul y frutos',
-    price: 10.99,
+    price: 13,
     image: './images/products/cinta_blue.jpg',
   },
   {
@@ -193,7 +193,7 @@ export const products = [
       'Salsas',
     ],
     description: 'Combinación jugosa de pollo y sabores ahumados',
-    price: 7.5,
+    price: 10.5,
     image: './images/products/chicken_bbq.jpg',
   },
   {
@@ -210,7 +210,7 @@ export const products = [
       'Salsas',
     ],
     description: 'Experiencia gourmet con ingredientes de lujo',
-    price: 15.99,
+    price: 9,
     image: './images/products/classic.jpg',
   },
   {
@@ -229,7 +229,7 @@ export const products = [
       'Salsa de la casa',
     ],
     description: 'Versión esencial de la hamburguesa clásica',
-    price: 6.5,
+    price: 8.5,
     image: './images/products/classic.jpg',
   },
   {
@@ -246,7 +246,7 @@ export const products = [
       'Salsa de la casa',
     ],
     description: 'Doble dosis de sabor para los más hambrientos',
-    price: 9.99,
+    price: 11.5,
     image: './images/products/burgues_doble.jpg',
   },
 ]
